@@ -1,0 +1,24 @@
+{
+    "name":"Color picker",
+    "version":"0.0.1",
+    "manifest_version":3,
+
+
+
+
+
+   "permissions": ["scripting"],
+   "background": {"service_worker": "back.js"},
+
+   "action":{
+    "default_popup":"color.html"
+   },
+   "icons":{
+    "128":"icon.jpeg",
+    "48":"icons.jpeg",
+    "16":"logo.jpeg"
+   }
+   
+    
+}
+    
